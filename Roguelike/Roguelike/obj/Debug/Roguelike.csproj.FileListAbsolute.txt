@@ -1,0 +1,5 @@
+D:\Users\cro0012\RiderProjects\Roguelike\Roguelike\bin\Debug\Roguelike.exe
+D:\Users\cro0012\RiderProjects\Roguelike\Roguelike\bin\Debug\Roguelike.pdb
+D:\Users\cro0012\RiderProjects\Roguelike\Roguelike\obj\Debug\Roguelike.csprojResolveAssemblyReference.cache
+D:\Users\cro0012\RiderProjects\Roguelike\Roguelike\obj\Debug\Roguelike.exe
+D:\Users\cro0012\RiderProjects\Roguelike\Roguelike\obj\Debug\Roguelike.pdb
