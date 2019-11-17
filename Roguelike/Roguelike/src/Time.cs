@@ -2,12 +2,12 @@ using System;
 
 namespace Roguelike {
     public class Time {
-        public ushort Hours;
-        public ushort Milliseconds;
-        public ushort Minutes;
-        public ushort Seconds;
+        public int Hours;
+        public int Milliseconds;
+        public int Minutes;
+        public int Seconds;
 
-        public Time(ushort milliseconds = 0, ushort seconds = 0, ushort minutes = 0, ushort hours = 0) {
+        public Time(int milliseconds = 0, int seconds = 0, int minutes = 0, int hours = 0) {
             if (milliseconds != 0) Milliseconds = milliseconds;
             if (seconds != 0) Seconds = seconds;
             if (minutes != 0) Minutes = minutes;
@@ -19,7 +19,7 @@ namespace Roguelike {
         }
 
         public string ToStringTwelveHour() {
-            ushort hours = Hours;
+            int hours = Hours;
             string prefix = "am";
             
             hours += 1;
@@ -36,7 +36,7 @@ namespace Roguelike {
             else Console.Write(ToStringTwelveHour());
         }
 
-        public int PassTime(ushort milliseconds = 0, ushort seconds = 0, ushort minutes = 0, ushort hours = 0) {
+        public int PassTime(int milliseconds = 0, int seconds = 0, int minutes = 0, int hours = 0) {
             Milliseconds += milliseconds;
             Seconds += seconds;
             Minutes += minutes;

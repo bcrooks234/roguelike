@@ -2,13 +2,13 @@ using System;
 
 namespace Roguelike {
     public class Date {
-        public ushort Day;
-        public ushort Month;
-        public ushort Year;
+        public int Day;
+        public int Month;
+        public int Year;
 
-        private ushort daysInMonth = 30;
+        private int daysInMonth = 30;
 
-        public Date(ushort day, ushort month, ushort year) {
+        public Date(int day, int month, int year) {
             Day = day;
             Month = month;
             Year = year;
@@ -24,7 +24,7 @@ namespace Roguelike {
             Console.Write(ToString());
         }
 
-        public void PassTime(ushort days = 0, ushort months = 0, ushort years = 0) {
+        public void PassTime(int days = 0, int months = 0, int years = 0) {
             Day += days;
             Month += months;
             Year += years;
